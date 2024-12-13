@@ -6,7 +6,7 @@ export default function Home() {
 <div className='outerDiv'>
 <div className='innerDiv'>
 <h1>
-  Hello React
+  Hello, React.
 </h1>
 </div>
 </div>
