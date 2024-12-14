@@ -16,7 +16,7 @@
 }
 
 .margin{
-    margin: 10% 0px;
+    margin: 8% 0px;
 }
 
 /* layout */
@@ -27,7 +27,7 @@
 }
 
 .innerDiv {
-    width: 1124px;
+    width: 1200px;
 }
 
 /* Banner */
@@ -73,11 +73,21 @@ p.empoCont {
     cursor: pointer;
 }
 
-div.question .open i.fa-solid {
+div.question .open svg {
     rotate: 90deg;
     color: #0045e6;
 }
-
+div.question .open svg path{
+fill: #0045e6;
+}
+.greater svg{
+    font-size: 1.5rem;
+    width: 1em;
+    height: 1em;
+}
+.greater svg path{
+    fill:#bcbdbf;
+}
 .accordianItem h2 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -113,12 +123,8 @@ div.question .open h2::before {
     padding: 1rem 1.8rem;
 }
 
-.accordianAnswer p {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
 
-@media (max-width:1124px) {
+@media (max-width:1200px) {
     .innerDiv {
         width: 100%;
         padding: 5%;
@@ -127,4 +133,14 @@ div.question .open h2::before {
     .accordianItem h2 {
         align-items: flex-start;
     }
+}
+
+@media (max-width:780px){
+    h1.empoHeading,p.empoCont{
+        width: 100%;
+    }
+    .mission .flxR{
+        flex-wrap: wrap;
+    }
+   
 }

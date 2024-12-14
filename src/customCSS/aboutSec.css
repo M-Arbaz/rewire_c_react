@@ -3,7 +3,7 @@
 }
 .aboutSecMain p{
     font-size: 0.875rem;
-    line-height: 1.1rem;
+    line-height: 1.3rem;
     font-weight: 500;
 }
 .aboutSecFlx{
@@ -29,4 +29,27 @@ flex-basis: 48%;
 }
 .aboutSecFlxRight img{
     width: fit-content;
+}
+
+.aboutSubSec{
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+.aboutSubSecCard{
+    flex-basis: 32.9%;
+    gap: 14px;
+    background-color: #fff;
+    padding: 8% 2% 5%;
+}
+
+@media (max-width:780px){
+    .aboutSecFlx{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .aboutSubSecCard,.aboutSecFlxRight, .aboutSecFlxLeft{
+        flex-basis: 100%;
+    }
+    
 }

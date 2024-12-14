@@ -1,0 +1,59 @@
+.setUsApartMainSec{
+
+}
+.setUsApartMainSec p{
+    line-height: 1.5rem;
+}
+.setUsApartMainHead,.setUsApartMainPara{
+    text-align: center;
+}
+.setUsApartMainPara{
+    margin: 0px 10% 5%;
+
+}
+.setUsApartSubCard{
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 2% 2% 5%;
+    flex-basis: 32%;
+    gap: 5px;
+}
+.setUsApartSubCard:hover{
+    translate: 0px -5px ;
+}
+.setUsApartSubCard .ball::before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0045e6;
+    translate: 0px 2px ;
+}
+.setUsApartSubSec{
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.setUsApartSubSecInContent{
+    gap: 5px;
+}
+.setUsApartSubSecInContent h3{
+    font-size: 1rem;
+}
+.setUsApartSubSecInContent p{
+    line-height: 1.5rem;
+    font-weight: 500;
+    color:#667085;
+}
+
+@media (max-width:780px){
+    .setUsApartMainSec h2{
+        margin-bottom: 10px;
+    }
+    .setUsApartMainSec p{
+        margin: 0px 0% 5%;
+    }
+    .setUsApartSubCard{
+        flex-basis: 100%;
+    }
+}

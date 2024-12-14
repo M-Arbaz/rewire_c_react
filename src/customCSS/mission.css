@@ -30,3 +30,9 @@ h2.missionHeading{
 h3.missionSubHead{
     font-size: 2rem;
 }
+
+@media (max-width:780px){
+    .missionLeft,.missionRight{
+        flex-basis: 100%;
+    }
+}

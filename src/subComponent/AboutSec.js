@@ -29,6 +29,52 @@ export default function AboutSec() {
                             </p>
                         </div>
                     </div>
+
+                    <div className='aboutSubSec flxR'>
+                        <div className='aboutSubSecCard aboutSubSecCard1 flxC'>
+                            <h3>Who We Are?</h3>
+                            <p>
+                                Our diverse backgrounds and collective expertise span various
+                                industries, allowing us to approach each
+                                engagement with fresh thinking.
+                            </p>
+                        </div>
+
+                        <div className='aboutSubSecCard aboutSubSecCard2 flxC'>
+                            <h3>Empowering Your Success</h3>
+                            <p>
+                                Empowerment through expertise is the cornerstone of every successful consultancy engagement.
+                            </p>
+                        </div>
+
+                        <div className='aboutSubSecCard aboutSubSecCard3 flxC'>
+                            <h3>The Path to Transformation</h3>
+                            <p>
+                                Consultancy is the catalyst for transformation, guiding organizations through a strategic path of positive change.
+                            </p>
+                        </div>
+
+                        <div className='aboutSubSecCard aboutSubSecCard4 flxC'>
+                            <h3>Understanding Your World</h3>
+                            <p>
+                                Consultants thrive on understanding the intricacies of their client's worlds, unlocking insights that drive informed decision-making.
+                            </p>
+                        </div>
+
+                        <div className='aboutSubSecCard aboutSubSecCard5 flxC'>
+                            <h3>The Impact We Make</h3>
+                            <p>
+                                Integrity, expertise, and a commitment to excellence—these are the pillars upon which our consultancy stands firm.
+                            </p>
+                        </div>
+
+                        <div className='aboutSubSecCard aboutSubSecCard6 flxC'>
+                            <h3>What We Stand For</h3>
+                            <p>
+                                Integrity, expertise, and a commitment to excellence—these are the pillars upon which our consultancy stands firm.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
