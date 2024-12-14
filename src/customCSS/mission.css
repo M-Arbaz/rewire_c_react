@@ -1,0 +1,32 @@
+.missionLeft{
+    flex-basis: 50%;
+}
+
+h2.missionHeading{
+    font-size: 4.5rem;
+}
+.missionLeft p{
+    line-height: 1.5rem;
+}
+.mission .flxR{
+    justify-content: space-between;
+}
+.missionSec1{
+    gap: 25px;
+}
+.missionSec2,.missionSec3,.missionSec4{
+    gap:15px;
+    padding: 8% 0px;
+    border-bottom: 2px solid #DCDCDC;
+}
+.missionSec4{
+    border: none;
+}
+.missionRight{
+    flex-basis: 40%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+h3.missionSubHead{
+    font-size: 2rem;
+}

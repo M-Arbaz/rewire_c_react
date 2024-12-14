@@ -1,17 +1,16 @@
 import React from 'react'
 import FaqAccordian from '../subComponent/FaqAccordian'
+import EmpoweringBanner from '../subComponent/EmpoweringBanner'
+import OurMission from '../subComponent/OurMission'
+import AboutSec from '../subComponent/AboutSec'
 
 export default function Home() {
   return (
     <>
-<div className='outerDiv'>
-<div className='innerDiv'>
-<h1>
-  Hello, React.
-</h1>
-<FaqAccordian/>
-</div>
-</div>
+      <EmpoweringBanner />
+      <OurMission />
+      <AboutSec />
+      <FaqAccordian />
     </>
   )
 }

@@ -1,37 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: 0.5s;
 }
+
+.flxC {
+    display: flex;
+    flex-direction: column;
+}
+
+.flxR {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin{
+    margin: 10% 0px;
+}
+
 /* layout */
-.outerDiv{
+.outerDiv {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.innerDiv{
+
+.innerDiv {
     width: 1124px;
 }
+
+/* Banner */
+.empoBanner {
+    background-image: url('Img/who-we-are-bg.2804a3a0\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 12% 0px;
+}
+
+.empoBanner .flxC {
+    gap: 20px;
+}
+
+h1.empoHeading {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: 55%;
+}
+
+p.empoCont {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 500;
+    width: 60%;
+}
+
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 /* accordian  */
 
-.accordianItem{
+.accordianItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
-div.question .open i.fa-solid{
+
+div.question .open i.fa-solid {
     rotate: 90deg;
     color: #0045e6;
-    }
-    .accordianItem h2{
-        font-size: 1.2rem;
-        font-weight: 400;
-        display: flex;
-        align-items: center;
-    }
-.accordianItem h2::before{
+}
+
+.accordianItem h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.accordianItem h2::before {
     content: "";
     transition: 0.5s;
     display: block;
@@ -41,32 +95,36 @@ div.question .open i.fa-solid{
     border: 1px solid #bcbdbf;
     background-color: #bcbdbf;
     margin-right: 20px;
-    flex-shrink:0;
+    flex-shrink: 0;
 }
 
-    
+
 div.question .open h2::before {
     transition: 0.5s;
     border: 1px solid #0045e6;
     background-color: #0045e6;
 }
-.question{
-    padding:1rem 1.8rem ;
-}
-.accordianAnswer{
-padding: 1rem 1.8rem;
+
+.question {
+    padding: 1rem 1.8rem;
 }
 
-.accordianAnswer p{
+.accordianAnswer {
+    padding: 1rem 1.8rem;
+}
+
+.accordianAnswer p {
     font-size: 1.2rem;
     font-weight: 600;
 }
-@media (max-width:1124px){
-    .innerDiv{
+
+@media (max-width:1124px) {
+    .innerDiv {
         width: 100%;
-        padding:5%;
+        padding: 5%;
     }
-      .accordianItem h2{
+
+    .accordianItem h2 {
         align-items: flex-start;
-      }
+    }
 }

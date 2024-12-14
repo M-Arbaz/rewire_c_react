@@ -1,0 +1,32 @@
+.aboutSecMain{
+    background-color: #f9fbfc;
+}
+.aboutSecMain p{
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+    font-weight: 500;
+}
+.aboutSecFlx{
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.aboutSecFlxLeft{
+    gap: 13px;
+}
+.aboutSecFlxLeft .aboutSecHead{
+font-size: 2.25rem;
+}
+.aboutSecFlxRight{
+    padding: 3%;
+    background-color: #06142a;
+    color: #fff;
+    justify-content: flex-start;
+    gap: 13px;
+    border-radius: 10px;
+}
+.aboutSecFlxRight,.aboutSecFlxLeft{
+flex-basis: 48%;
+}
+.aboutSecFlxRight img{
+    width: fit-content;
+}
